@@ -1,6 +1,6 @@
 # Website Câu Lạc Bộ Bóng Chuyền Đại Nam
 
-Bài tập lớn môn Nhập môn Công nghệ thông tin – Trường Đại học Đại Nam
+Bài tập lớn môn Nhập môn Công nghệ thông tin – Trường Đại học Đại Nam.
 
 ## 1. Thông tin sinh viên
 

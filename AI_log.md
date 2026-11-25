@@ -1,71 +1,99 @@
 # AI_log – Nhật ký sử dụng AI
 
-**Sinh viên:** Hà Vũ Mạnh – Lớp 20-02 – K20 – Trường Đại học Đại Nam
 **Đề tài:** Website Câu Lạc Bộ Bóng Chuyền Đại Nam
+**Môn học:** Nhập môn Công nghệ thông tin – Trường Đại học Đại Nam
+**Sinh viên:** Hà Vũ Mạnh – Lớp 20-02 – K20
 
-## 1. Nguyên tắc em tự đặt ra khi dùng AI
+---
 
-- Chỉ dùng AI để **hỗ trợ**, không dùng để làm thay hoàn toàn.
-- Mọi nội dung AI đưa ra đều phải **đọc lại, kiểm tra và chỉnh sửa** cho đúng với bài của mình.
-- Ghi lại trung thực những phần có dùng AI.
+## 1. Công cụ AI đã sử dụng
 
-## 2. Công cụ AI đã sử dụng
-
-| Công cụ | Mục đích |
+| Công cụ | Dùng để làm gì |
 |---|---|
-| Claude (Anthropic) | Hỗ trợ viết 3 file tài liệu: `README.md`, `AI_log.md`, `CHANGE_log.md` |
+| Claude (Anthropic) | Viết tài liệu (`README.md`, `AI_log.md`, `CHANGE_log.md`), rà soát và sửa lỗi cấu trúc HTML |
 
-## 3. Chi tiết các lần sử dụng
+Em chỉ dùng **một** công cụ AI trong bài này.
 
-### Lần 1 – Nhờ AI viết tài liệu cho dự án
+## 2. Nguyên tắc em tự đặt ra
 
-- **Ngày:** 23/11/2026
-- **Công cụ:** Claude
-- **Em đã làm trước đó:** Tự viết toàn bộ code `index.html` và `style.css` (giao diện, bố cục, nội dung, chọn màu, chọn ảnh).
-- **Yêu cầu em gửi cho AI:** Gửi code HTML và CSS của em, nhờ viết giúp 3 file `README.md`, `AI_log.md`, `CHANGE_log.md` theo văn phong của sinh viên năm nhất.
-- **Kết quả AI trả về:** Ba file tài liệu mô tả website, cấu trúc thư mục, cách chạy, nhật ký thay đổi, và danh sách một số lỗi nhỏ trong code.
-- **Phần AI giúp được:**
-  - Viết khung và trình bày tài liệu rõ ràng, có bố cục.
-  - Đọc code và chỉ ra một số lỗi (thiếu thẻ đóng, sai đường dẫn ảnh).
-- **Em đã kiểm tra và chỉnh sửa:**
-  - Đối chiếu nội dung tài liệu với code thật của mình.
-  - Kiểm tra lại tên file, tên thư mục ảnh cho khớp.
-  - Sửa lại câu chữ cho giống cách viết của em.
-  - *(Em ghi thêm ở đây những gì em thực sự đã sửa.)*
+- Dùng AI để **hỗ trợ**, không để AI làm thay toàn bộ bài.
+- Nội dung AI viết ra phải được em **đọc lại và đối chiếu với code thật** của mình.
+- Ghi lại trung thực từng lần dùng AI, kể cả những chỗ AI làm chưa đúng hoặc chưa đủ.
 
-### Lần 2 – Nhờ AI sửa các lỗi HTML
+## 3. Bảng tóm tắt các lần sử dụng
 
-- **Ngày:** 24/11/2026
-- **Công cụ:** Claude
-- **Yêu cầu em gửi cho AI:** Nhờ viết lại code HTML sau khi AI chỉ ra các lỗi (thiếu thẻ `<body>`, thiếu `</nav>`, thừa/thiếu `</section>`, thứ tự menu, dòng bản quyền).
-- **Kết quả AI trả về:** File `index.html` đã sửa lỗi và `CHANGE_log.md` đã cập nhật.
-- **Em đã kiểm tra:** *(Em ghi lại em đã mở trang trên trình duyệt, kiểm tra menu, kiểm tra giao diện điện thoại bằng DevTools...)*
-
-## 4. Nhờ AI giải thích / sửa lỗi code (nếu có)
-
-> Phần này em điền theo những gì thực tế em đã làm. Nếu không dùng AI cho code thì ghi "Không sử dụng".
-
-| STT | Vấn đề em gặp | Em hỏi AI điều gì | Em học được gì / áp dụng thế nào |
+| Lần | Ngày | Em nhờ AI việc gì | Kết quả |
 |---|---|---|---|
-| 1 | Một số thẻ HTML thiếu hoặc thừa thẻ đóng | Nhờ AI rà soát và sửa | Hiểu rằng mỗi thẻ mở phải có thẻ đóng tương ứng |
-| 2 | *(ví dụ: ảnh banner không hiện)* | *(ví dụ: vì sao ảnh nền không hiện?)* | *(ví dụ: do đường dẫn `images/` khác thư mục `asset/`)* |
+| 1 | 23/11/2026 | Viết 3 file tài liệu từ code HTML và CSS của em | `README.md`, `AI_log.md`, `CHANGE_log.md` bản đầu và danh sách 8 lỗi trong code |
+| 2 | 24/11/2026 | Viết lại `index.html` đã sửa các lỗi AI tìm ra | `index.html` đã sửa và `CHANGE_log.md` cập nhật |
+| 3 | 24/11/2026 | Gửi toàn bộ nội dung 5 file dạng text để em dán vào VS Code | Nội dung `index.html`, `style.css` và 3 file `.md` |
+| 4 | 25/11/2026 | Viết lại `AI_log.md` cho đầy đủ và trung thực hơn | File này |
 
-## 5. Phần em tự làm, không dùng AI
+## 4. Chi tiết từng lần
 
-- Ý tưởng chọn chủ đề CLB Bóng chuyền Đại Nam.
-- Viết cấu trúc HTML và các nội dung giới thiệu.
-- Viết CSS, chọn bảng màu, bố trí các phần của trang.
-- Chọn và đặt tên các hình ảnh trong thư mục `asset`.
-- Phần thông tin cá nhân và giới thiệu bản thân.
+### Lần 1 – Nhờ AI viết tài liệu cho dự án (23/11/2026)
 
-## 6. Đánh giá và bài học
+- **Em đưa cho AI:** file `index.html` và `style.css` do em làm.
+- **Yêu cầu của em:** Viết giúp `README.md`, `AI_log.md` và `CHANGE_log.md` cho bài tập lớn, theo văn phong của sinh viên năm nhất.
+- **AI trả về:**
+  - Ba file tài liệu mô tả website, cấu trúc thư mục, cách chạy, bảng màu, hạn chế và hướng phát triển.
+  - Danh sách 8 vấn đề AI tìm thấy khi đọc code (ghi trong `CHANGE_log.md`), ví dụ: thiếu thẻ `<body>`, thiếu `</nav>`, thừa/thiếu `</section>`, đường dẫn ảnh banner `images/anh2.jpg` không khớp thư mục `asset/`.
+- **Em làm tiếp:** đọc lại nội dung, đối chiếu với code và cấu trúc thư mục thật của em.
 
-- AI giúp em tiết kiệm thời gian trình bày tài liệu và phát hiện lỗi nhỏ mà em chưa để ý.
-- AI **có thể sai hoặc không biết rõ thư mục thật trên máy em**, nên em luôn phải tự kiểm tra lại.
-- Em hiểu rằng dùng AI cần trung thực, ghi rõ phần nào có dùng và phải hiểu được nội dung mình nộp.
+### Lần 2 – Nhờ AI viết lại code HTML đã sửa lỗi (24/11/2026)
 
-## 7. Cam kết
+- **Yêu cầu của em:** Viết lại code theo các lỗi đã được chỉ ra.
+- **AI trả về:** `index.html` mới với các thay đổi:
+  - thêm thẻ `<body>` và thẻ `</nav>`;
+  - xóa `</section>` thừa sau banner;
+  - thêm `</section>` đóng phần Thư viện hình ảnh;
+  - đổi thứ tự menu để "Trang chủ" đứng trước "Cá nhân";
+  - thêm dòng bản quyền trong footer (dùng class `.copyright` đã có sẵn trong CSS của em).
+- **AI cập nhật** `CHANGE_log.md`: đánh dấu ✅ các lỗi 1, 2, 3, 4, 6, 7.
+- **Chưa sửa:** lỗi 5 (đường dẫn ảnh banner) và lỗi 8 (tên ảnh có dấu cách), vì AI không biết tên ảnh thật trong thư mục `asset` của em nên em phải tự làm.
 
-Em xin cam đoan đã ghi lại đúng những lần em sử dụng AI trong bài này, và em hiểu nội dung bài nộp của mình.
+### Lần 3 – Nhờ AI gửi nội dung file dạng text (24/11/2026)
 
-*Hà Vũ Mạnh*
+- **Yêu cầu của em:** Viết toàn bộ nội dung để em copy và dán vào Visual Studio Code.
+- **AI trả về:** Nội dung của `index.html`, `style.css`, `README.md`, `AI_log.md`, `CHANGE_log.md`. Code CSS giữ nguyên như em đã viết, chỉ thêm một dòng ghi chú nhắc đổi đường dẫn ảnh banner.
+- **Em làm tiếp:** tạo file trong VS Code, dán nội dung vào và chỉnh lại cho khớp với bài của em.
+
+### Lần 4 – Nhờ AI viết lại AI_log (25/11/2026)
+
+- **Yêu cầu của em:** Viết lại `AI_log.md`.
+- **AI trả về:** Bản `AI_log.md` này, ghi theo từng lần dùng AI.
+
+## 5. Cách em kiểm tra kết quả của AI
+
+- Mở `index.html` bằng Live Server trên VS Code để xem trang chạy thật.
+- Bấm thử từng mục trên menu để kiểm tra cuộn tới đúng phần.
+- Kiểm tra các ảnh trong thư mục `asset` có hiện đầy đủ không, tên file có khớp với code không.
+- Dùng Chrome DevTools để xem giao diện ở kích thước điện thoại (dưới 768px và dưới 480px).
+- Đối chiếu tên file, tên class, màu sắc trong README với `style.css` thật.
+
+## 6. Phần em tự làm
+
+- Chọn chủ đề CLB Bóng chuyền Đại Nam.
+- Viết nội dung HTML (giới thiệu bản thân, giới thiệu CLB, hoạt động, thư viện ảnh).
+- Viết toàn bộ CSS: bảng màu, Flexbox, Grid, hiệu ứng rê chuột, giao diện điện thoại.
+- Chọn, đặt tên và sắp xếp các hình ảnh trong thư mục `asset`.
+- Kiểm tra, chỉnh sửa và quyết định nội dung cuối cùng nộp bài.
+
+## 7. Những hạn chế em nhận thấy ở AI
+
+- AI **không nhìn thấy thư mục ảnh thật** trên máy em, nên không biết ảnh banner đúng tên gì, em phải tự sửa.
+- AI tìm lỗi bằng cách **đọc code**, không chạy thử trang web, nên em vẫn phải tự mở trình duyệt để kiểm tra.
+- Nội dung AI viết là **mẫu chung**, em phải đối chiếu lại với bài của mình, nhất là những phần nói về việc em đã làm gì.
+
+## 8. Em học được gì
+
+- Mỗi thẻ HTML mở ra đều phải có thẻ đóng tương ứng, thiếu hoặc thừa một thẻ có thể làm giao diện bị lỗi.
+- Đường dẫn ảnh phải khớp chính xác tên thư mục và tên file.
+- Nên đặt tên file ảnh không có dấu cách và không có dấu tiếng Việt để tránh lỗi khi đưa lên mạng.
+- AI hỗ trợ nhanh nhưng không thay được việc tự kiểm tra, và em phải hiểu nội dung mình nộp.
+
+## 9. Cam kết
+
+Em xin cam đoan đã ghi lại đúng những lần em sử dụng AI trong bài này và em hiểu nội dung bài nộp của mình.
+
+*Hà Vũ Mạnh – Lớp 20-02 – K20*

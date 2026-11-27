@@ -5,7 +5,7 @@ Bài tập lớn môn Nhập môn Công nghệ thông tin – Trường Đại h
 ## 1. Thông tin sinh viên
 
 | Mục | Nội dung |
-|---|---|---
+|---|---|
 | Họ và tên | Hà Vũ Mạnh |
 | Trường | Đại học Đại Nam |
 | Lớp | 20-02 |
